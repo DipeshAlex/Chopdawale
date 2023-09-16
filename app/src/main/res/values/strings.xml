@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Chopdawale</string>
+    <string name="email_number">Email/Number</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

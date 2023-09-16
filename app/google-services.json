@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "679969863179",
+    "firebase_url": "https://chopadawale-default-rtdb.firebaseio.com",
+    "project_id": "chopadawale",
+    "storage_bucket": "chopadawale.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:679969863179:android:92eeaa3c413c94031fb90e",
+        "android_client_info": {
+          "package_name": "com.example.chopdawale"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "679969863179-1eeqrsat99an38gnnrdobq2pu37cnoec.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chopdawale",
+            "certificate_hash": "e5bd5a17896a2422e8161ae9f6655270f5865d9d"
+          }
+        },
+        {
+          "client_id": "679969863179-i5jmd2uanksdncbsk5nrpjck6uj7lkih.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlCTJQZr7O0k_kikan9lasKFWH-9UjT0I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "679969863179-2i38qcqffe36nhcpj61ncage9e6fcnlv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

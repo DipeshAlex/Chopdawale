@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgn"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="410dp"
+        android:layout_height="130dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        app:srcCompat="@drawable/logo" />
+
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="21dp"
+            android:fontFamily="@font/bolo"
+            android:text="Welcome"
+            android:textColor="@color/white"
+            android:textSize="50dp" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text"
+            android:layout_marginStart="29dp"
+            android:layout_marginTop="-21dp"
+            android:fontFamily="@font/bolo"
+            android:text="Please sign in to continue"
+            android:textColor="#4AFFFFFF" />
+
+        <EditText
+            android:id="@+id/text3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text2"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="30dp"
+            android:fontFamily="@font/bolo"
+            android:hint="Email/Number"
+            android:background="@drawable/input"
+            android:paddingLeft="12dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:textColorHint="#4AFFFFFF"
+            android:textSize="16dp"
+
+            />
+
+    <EditText
+        android:id="@+id/text4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text3"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="@font/bolo"
+        android:hint="Password/Otp"
+        android:background="@drawable/input"
+        android:paddingLeft="12dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textColorHint="#4AFFFFFF"
+        android:textSize="16dp"
+        />
+
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text4"
+            android:layout_marginStart="38dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/bolo"
+            android:text="Forgot Password"
+            android:textColor="@color/white" />
+
+
+        <ImageView
+            android:id="@+id/user"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_below="@id/text2"
+            android:layout_marginStart="350dp"
+            android:layout_marginTop="8dp"
+            app:srcCompat="@drawable/user"
+            />
+
+        <ImageView
+            android:id="@+id/lock"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_below="@id/text3"
+            android:layout_marginStart="350dp"
+            android:layout_marginTop="8dp"
+            app:srcCompat="@drawable/lock"
+             />
+
+
+    <Button
+        android:id="@+id/singin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text5"
+        android:layout_marginStart="300dp"
+        android:backgroundTint="@color/white"
+        android:text="Sign in"
+        android:elevation="50dp"
+        android:fontFamily="@font/bolo"
+        android:textColor="#FF4800"
+
+        />
+
+
+    <ImageView
+        android:id="@+id/newuser"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_above="@id/google"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="150dp"
+        android:elevation="40dp"
+        android:background="@drawable/newuser"
+        />
+
+    <ImageView
+        android:id="@+id/google"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_above="@id/facebook"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:elevation="80dp"
+        android:background="@drawable/google"
+        />
+
+    <ImageView
+        android:id="@+id/facebook"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:elevation="50dp"
+        android:background="@drawable/facebook"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        />
+
+</RelativeLayout>
